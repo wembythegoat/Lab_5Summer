@@ -6,6 +6,7 @@ package lab_5;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
@@ -23,11 +24,13 @@ public class Lab_5 extends Application {
     }
     
     public void start(Stage stage) {
-        Pane pane = new Pane();
+        BorderPane pane = new BorderPane();
         
         Scene scene = new Scene(pane);
         stage.setScene(scene);
+        stage.setTitle("YoYo");
         stage.show();
+        
     }
     
 }
